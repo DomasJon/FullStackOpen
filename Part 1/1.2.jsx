@@ -2,7 +2,7 @@ const Header = (headline) => {
     return (
       <div>
         <h1>
-          {headline.name}
+          {headline.course}
         </h1>
       </div>
     )
@@ -45,7 +45,7 @@ const Header = (headline) => {
 
     return (
       <div>
-        <Header name={course} />
+        <Header course={course} />
         <Content
         part1={part1} exercise1={exercises1}
         part2={part2} exercise2={exercises2}
